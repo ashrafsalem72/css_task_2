@@ -2,6 +2,8 @@
     background-image: url("398748236_780392027431635_4750014100275582286_n.jpg");
     background-size: cover;
     background-attachment: fixed;
+    padding: 0;
+    margin: 0;
 }
 
 .div-one,
@@ -15,14 +17,15 @@
 
 .div-one {
     background-color: red;
+    border-color: red;
 }
 
 .div-two {
-    background-color: green;
+    background-color: #ffffff;
 }
 
 .div-three {
-    background-color: blue;
+    background-color: green;
 }
 
 .div-four {
@@ -30,22 +33,41 @@
 }
 
 .div-five {
-    background-color: yellow;
+    background-color: red;
 }
 
 .h-one,
-.h {
+.h-two,
+.h-three,
+.h-four,
+.h-five {
     text-align: center;
-    margin: 0 15%;
+    margin: 0 10%;
 }
 
 .h-one {
-    width: 70%;
+    width: 90%;
     margin: auto;
-    background-color: #d6ae2f;
-    height: 100px;
+    background-color: green;
+    height: 60px;
     border-color: red;
     border-width: 0 10px 10px;
     border-style: dashed;
     padding: 1%;
+}
+
+.h-two {
+    color: #000;
+}
+
+.h-three {
+    color: #fff;
+}
+
+.h-four {
+    color: #000;
+}
+
+.h-five {
+    color: #fff;
 }
